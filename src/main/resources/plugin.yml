@@ -1,0 +1,15 @@
+name: Halloween-Patches
+version: '${project.version}'
+main: org.sourcecode.halloweenpatches.Halloween_Patches
+api-version: '1.20'
+load: STARTUP
+
+commands:
+  spawnspirit:
+    description: "Spawnt einen Geist über dem Spieler. | Spawns a ghost above the player. "
+    usage: "/spawnspirit"
+    permission: pumpkinspiritplugin.spawnspirit
+permissions:
+  pumpkinspiritplugin.spawnspirit:
+    description: "Erlaubt es, den Geist-Spawn-Befehl zu verwenden. | Allows the use of the ghost spawn command."
+    default: true
